@@ -212,6 +212,7 @@ img {
 }
 .team-list-item {
   background-color: #fff;
+  width: calc((100% - 72px) / 4);
 }
 
 .team {
