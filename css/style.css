@@ -169,6 +169,9 @@ img {
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .benefits-list-item {
   width: calc((100% - 72px) / 4);
@@ -199,6 +202,9 @@ img {
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-list li {
   border-radius: 0 0 4px 4px;
