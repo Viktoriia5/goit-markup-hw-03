@@ -170,7 +170,7 @@ img {
   display: flex;
   flex-direction: row;
 }
-.benefits-list .benefits-list-item {
+.benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
 .benefits-list li:not(:last-child) {
@@ -211,8 +211,8 @@ img {
   margin-right: 24px;
 }
 .team-list-item {
+  width: calc((100% - 72px) / 4);
   background-color: #fff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team {
