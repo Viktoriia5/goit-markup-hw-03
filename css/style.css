@@ -170,7 +170,7 @@ img {
   display: flex;
   flex-direction: row;
 }
-.benefits-list li {
+.benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
 .benefits-list li:not(:last-child) {
@@ -218,6 +218,10 @@ img {
 .team {
   background-color: #f4f4fd;
 }
+.team-data {
+  padding: 32px 0;
+}
+
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -226,8 +230,8 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
-
 .team-name {
   color: #2e2f42;
   text-align: center;
